@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Crystal SEAM</title>
+    <!-- attach style.css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- import main.js -->
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div id="main-div">
+        <div class="label-div">
+            <p class="building-name">Name</p>
+            <p class="building-number">#</p>
+            <p class="building-cost">Cost</p>
+            <p class="building-CpS">CpS</p>
+            <p class="building-buy">Buy</p>
+        </div>
+        <div class="building-div">
+            <div class="building-name">
+                <p>Canteen</p>
+            </div>
+            <input id="CanteenNumber" class="building-number" type="text" enterkeyhint="done"/>
+            <p id="CanteenCost" class="building-cost">1</p>
+            <p id="CanteenCpS" class="building-CpS">1</p>
+            <p id="CanteenBuy" class="building-buy">0</p>
+        </div>
+        <div class="building-div">
+            <div class="building-name">
+                <p>Power Station</p>
+            </div>
+            <input id="PowerStationNumber" class="building-number" type="text" enterkeyhint="done"/>
+            <p id="PowerStationCost" class="building-cost">11</p>
+            <p id="PowerStationCpS" class="building-CpS">8</p>
+            <p id="PowerStationBuy" class="building-buy">0</p>
+        </div>
+        <div class="building-div">
+            <div class="building-name">
+                <p>Support Station</p>
+            </div>
+            <input id="SupportStationNumber" class="building-number" type="text" enterkeyhint="done"/>
+            <p id="SupportStationCost" class="building-cost">120</p>
+            <p id="SupportStationCpS" class="building-CpS">47</p>
+            <p id="SupportStationBuy" class="building-buy">0</p>
+        </div>
+        <div class="building-div">
+            <div class="building-name">
+                <p>Upgrade Station</p>
+            </div>
+            <input id="UpgradeStationNumber" class="building-number" type="text" enterkeyhint="done"/>
+            <p id="UpgradeStationCost" class="building-cost">120</p>
+            <p id="UpgradeStationCpS" class="building-CpS">47</p>
+            <p id="UpgradeStationBuy" class="building-buy">0</p>
+        </div>
+        <div class="building-div">
+            <div class="building-name">
+                <p>Geological Center</p>
+            </div>
+            <input id="GeologicalCenterNumber" class="building-number" type="text" enterkeyhint="done"/>
+            <p id="GeologicalCenterCost" class="building-cost">120</p>
+            <p id="GeologicalCenterCpS" class="building-CpS">47</p>
+            <p id="GeologicalCenterBuy" class="building-buy">0</p>
+        </div>
+        <div class="building-div">
+            <div class="building-name">
+                <p>Ore Refinery</p>
+            </div>
+            <input id="OreRefineryNumber" class="building-number" type="text" enterkeyhint="done"/>
+            <p id="OreRefineryCost" class="building-cost">120</p>
+            <p id="OreRefineryCpS" class="building-CpS">47</p>
+            <p id="OreRefineryBuy" class="building-buy">0</p>
+        </div>
+        <div class="building-div">
+            <div class="building-name">
+                <p>Super Teleport</p>
+            </div>
+            <input id="SuperTeleportNumber" class="building-number" type="text" enterkeyhint="done"/>
+            <p id="SuperTeleportCost" class="building-cost">120</p>
+            <p id="SuperTeleportCpS" class="building-CpS">47</p>
+            <p id="SuperTeleportBuy" class="building-buy">0</p>
+        </div>
+        <div class="building-div">
+            <div class="building-name">
+                <p>Mining Laser</p>
+            </div>
+            <input id="MiningLaserNumber" class="building-number" type="text" enterkeyhint="done"/>
+            <p id="MiningLaserCost" class="building-cost">120</p>
+            <p id="MiningLaserCpS" class="building-CpS">47</p>
+            <p id="MiningLaserBuy" class="building-buy">0</p>
+        </div>
+
+        <p id="totalCpS">Total CpS: 0</p>
+
+        <p class="best-buy">Best Buys!</p>
+        <p id="best-buy-1" class="best-buy">1: blank</p>
+        <p id="best-buy-2" class="best-buy">2: blank</p>
+        <p id="best-buy-3" class="best-buy">3: blank</p>
+
+        
+
+
+        <div id="local-storage-controls-div" >
+            <button class="local-storage-button" onclick="clearStorage()">Clear Local Storage</button>
+        </div>
+    </div>
+</body>
+</html>
